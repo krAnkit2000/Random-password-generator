@@ -1,31 +1,21 @@
 
 * {
 	box-sizing: border-box;
-    border-radius: 5px;
-
-border: 2px solid rgb(171, 166, 166);
-width: 14rem;
-border-radius: 10px;
-padding: 10px;
-margin: 0 auto;
-width: 15rem;
-
-width: auto;
-
+    border-radius: 15px;
 }
 
-
 body {
-	background-color:
-white;
-	color: #312e2e;
+	background-color: #1f1f20;
+	color: #f9f6f6;
 	display: flex;
+	font-family: monospace;
 	font-family: 'Muli', sans-serif;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
 	min-height: 100vh; 
+	
 }
 
 p {
@@ -36,17 +26,18 @@ p {
 h2 {
 	margin: 10px 0 20px;
 	text-align: center;
-	text-shadow: 2px 2px rgba(200, 54, 54, 0.839);
+	text-shadow: 2px 2px rgba(12, 11, 11, 0.839);
+	;
 }
 
 input[type=checkbox] {
-	margin-right: 0;
+	margin-right:2px;
 }
 
 .container {
 	text-decoration: solid;
 	text-transform: capitalize;
-	background-color: #3c3c42d7;
+	background-color: #24247122;
 	box-shadow: 1px 12px 25px rgba(255, 254, 254, 0.2);
 	padding: 25px;
 	width: 350px;
@@ -86,13 +77,13 @@ input[type=checkbox] {
 
 }
 label{
-	text-shadow: 2px 2px rgba(200, 54, 54, 0.839);
+	text-shadow: 2px 2px rgba(136, 8, 8, 0.839);
 }
 
 .btn {
 	
 	border: none;
-	color: #fff;
+	color: #030303;
 	cursor: pointer;
 	font-size: 16px;
 	padding: 8px 12px;
@@ -127,7 +118,7 @@ label{
 }
 
 .social-panel {	
-	background-color: #fff;
+	background-color: #070707;
 	border-radius: 16px;
 	box-shadow: 0 16px 31px -17px rgba(0,31,97,0.6);
 	border: 5px solid #001F61;
@@ -144,7 +135,7 @@ label{
 
 .social-panel button.close-btn {
 	border: 0;
-	color: #97A5CE;
+	color: #b2c0eb;
 	cursor: pointer;
 	font-size: 20px;
 	position: absolute;
@@ -159,7 +150,7 @@ label{
 .social-panel p {
 	background-color: #001F61;
 	border-radius: 0 0 10px 10px;
-	color: #fff;
+	color: #f0e6e6;
 	font-size: 14px;
 	line-height: 18px;
 	padding: 2px 17px 6px;
@@ -204,7 +195,7 @@ label{
 .social-panel ul li a {
 	border: 1px solid #DCE1F2;
 	border-radius: 50%;
-	color: #001F61;
+	color: #134ac1;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -224,7 +215,7 @@ label{
 	background-color: #001F61;
 	border: 1px solid #001F61;
 	box-shadow: 0 16px 22px -17px #03153B;
-	color: #fff;
+	color: #e7dbdb;
 	cursor: pointer;
 	font-size: 16px;
 	line-height: 20px;
@@ -247,7 +238,7 @@ label{
 .floating-text {
 	background-color: #001F61;
 	border-radius: 10px 10px 0 0;
-	color: #fff;
+	color: #060505;
 	font-family: 'Muli';
 	padding: 7px 15px;
 	position: fixed;
