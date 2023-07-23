@@ -1,13 +1,15 @@
 
 * {
 	box-sizing: border-box;
-    border-radius: 15px;
+    border-radius: 5px;
+    width: 30px;
+}
 }
 
 body {
 	background-color:
 white;
-	color: #fff;
+	color: #312e2e;
 	display: flex;
 	font-family: 'Muli', sans-serif;
 	flex-direction: column;
@@ -35,7 +37,7 @@ input[type=checkbox] {
 .container {
 	text-decoration: solid;
 	text-transform: capitalize;
-	background-color: #24242b22;
+	background-color: #3c3c42d7;
 	box-shadow: 1px 12px 25px rgba(255, 254, 254, 0.2);
 	padding: 25px;
 	width: 350px;
